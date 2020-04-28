@@ -1,5 +1,15 @@
 ---
-title: "Welcome to my website!"
+title: "McCrea Cobb"
+output:
+  html_document:
+    includes:
+      in_header: cover.html
 ---
 
-You're up and running!
+```{js, echo = FALSE}
+document.title = "McCrea Cobb"
+```
+
+I'm a biometrician with the USFWS Refuge Inventory and Monitoring Program and an R enthusiast. 
+
+[Read more about me..](about.html)
